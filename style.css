@@ -1,0 +1,115 @@
+:root {
+    --main-text: #443646;
+    --nav-headers: #4d1430;
+    --light-pink-bg: #ffd7eb;
+    --pink-bg: #f8a8d0;
+}
+
+.header {
+    background-color: var(--pink-bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cv-avatar {
+    height: 250px;
+    border: 10px solid var(--main-text);
+}
+
+.header-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--main-text);
+}
+
+.header-nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    margin-right: 20px;
+    color: var(--main-text);
+}
+
+.nav-list {
+    text-decoration: none;
+}
+
+.nav-item {
+    padding: 5px 0px;
+}
+
+.nav-link {
+    color: var(--main-text);
+    text-decoration: none;
+}
+
+.info-blocks {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 8px;
+    background-color: var(--light-pink-bg);
+    width: 400px;
+}
+
+.main-header {
+    color: var(--nav-headers);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    line-height: 8px;
+}
+
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    padding: 0px 16px;
+    color: var(--main-text);
+}
+
+.skillset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.code {
+    margin-left: -140px;
+}
+
+.footer-info {
+    background-color: var(--pink-bg);
+    height: 96px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.github {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.year {
+    font-style: bold;
+    font-size: 24px;
+}
+
+.logo {
+    height: 64px;
+}
